@@ -3,8 +3,12 @@
 // ?? LOGIN PAGE
 // =============================================
 
+// Enable error reporting for debugging
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 require_once 'config/database.php';
-
+require_once 'includes/functions.php';;  
 // Redirect already signed-in users to home
 if (isLoggedIn()) {
     redirect('index.php');

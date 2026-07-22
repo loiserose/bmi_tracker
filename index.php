@@ -358,4 +358,4 @@ document.addEventListener('DOMContentLoaded', function() {
 <?php endif; ?>
 </script>
 
-<?php require_once 'includes/footer.php'; ?>
+ <?php require_once 'includes/footer.php'; ?>
